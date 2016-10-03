@@ -7,7 +7,7 @@ class Thumbnail extends Component {
   }
 
   onClick() {
-    this.props.onClick({ src: this.props.src, alt: this.props.alt });
+    this.props.onClick({ src: this.props.src, alt: this.props.alt, title: this.props.title });
   }
 
   render() {
