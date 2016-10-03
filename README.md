@@ -27,7 +27,8 @@ Oppgaven går ut på å gradvis bygge ut en enkel bildevisning, med thumbnails s
 ### Mockdata
 Vi skal bruke mock-data som ligger i  src/data/mock.js
 
-### Koden ligger i src/js-mappen. Det er her du skal skrive kode underveis.
+### Koden
+Koden ligger i src/js-mappen. Det er her du skal skrive kode underveis.
 
 ### Løsninger
 Løsningene ligger i solutions-mappen. Se her om du står fast og dobbeltsjekk gjerne før du går videre på neste oppgave.
@@ -73,4 +74,4 @@ const images = this.state.imageArr.map((image, idx) => {
   return <Thumbnail {...image} key={idx} onClick={this.onClick} id={idx} />;
 });
 ```
-- Husk at det finnes en componentWillReceiveProps-metode...
+- Tenk også på hvordan mockdata må brukes for å kunne gjøre endringer på de...

@@ -24,7 +24,7 @@ class ImageGallery extends Component {
     const images = this.state.imageArr;
     const currentImg = this.state.imageArr[this.state.previewId];
     currentImg.title = title;
-    images[this.state.previewId] = images;
+    images[this.state.previewId] = currentImg;
     this.setState({ imageArr: images });
   }
 
@@ -35,7 +35,7 @@ class ImageGallery extends Component {
     return (
       <div className="image-gallery">
         <h1 className="image-gallery__title">Bildegalleri</h1>
-      {this.state.previewId ? <ImageDetail {...this.state.imageArr[this.state.previewId]} onTitleChange={this.onTitleChange} /> : null}
+        {this.state.previewId ? <ImageDetail {...this.state.imageArr[this.state.previewId]} onTitleChange={this.onTitleChange} /> : null}
         <div className="thumbnails">{images}</div>
       </div>
     );
