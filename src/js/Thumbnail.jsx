@@ -9,7 +9,7 @@ class Thumbnail extends Component {
     const { thumb, title, alt } = this.props;
     return (
       <div className="thumbnail">
-        <button onClick={this.onClick} className="thumbnail__select-button">
+        <button className="thumbnail__select-button">
          Forhåndsvis
         </button>
         <div className="thumbnail__content">
