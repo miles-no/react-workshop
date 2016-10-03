@@ -16,6 +16,21 @@ body {
   color: #4e5e6a;
 }
 
+input {
+  padding: .5rem .6rem;
+  display: block;
+  border: 1px solid #4e5e6a;
+  border-radius: 2px;
+  vertical-align: middle;
+  background-color: var(--white);
+  box-shadow: none;
+  outline: none;
+}
+
+input:focus {
+  box-shadow: 0 0 8px rgba(82,168,236,.6);
+}
+
 .image-gallery {
   padding: var(--side-space);
 }
