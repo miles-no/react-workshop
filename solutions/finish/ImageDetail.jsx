@@ -8,12 +8,7 @@ class ImageDetail extends Component {
     this.onBlur = this.onBlur.bind(this);
     this.state = {
       editMode: false,
-      title: props.title,
     };
-  }
-
-  componentWillReceiveProps(newProps) {
-    this.setState({ title: newProps.title });
   }
 
   onEditClick() {
@@ -35,9 +30,9 @@ class ImageDetail extends Component {
         <div>
           {this.state.editMode
           ? <div>
-            <input value={this.state.title} onChange={this.onChange} onBlur={this.onBlur} />
+            <input value={this.props.title} onChange={this.onChange} onBlur={this.onBlur} />
           </div>
-          : <h2 onClick={this.onEditClick}>{this.state.title}</h2>}
+          : <h2 onClick={this.onEditClick}>{this.props.title}</h2>}
           <img alt={alt} src={src} />
         </div>
       </div>
