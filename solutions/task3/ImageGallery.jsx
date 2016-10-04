@@ -10,7 +10,7 @@ class ImageGallery extends Component {
     super(props);
     this.onClick = this.onClick.bind(this);
     this.state = {
-      preview: null,
+      preview: imageArr[0],
     };
   }
 
@@ -25,7 +25,7 @@ class ImageGallery extends Component {
     return (
       <div className="image-gallery">
         <h1 className="image-gallery__title">Bildegalleri</h1>
-        {this.state.preview ? <ImageDetail {...this.state.preview} /> : null }
+        <ImageDetail {...this.state.preview} />
         <div className="thumbnails">{images}</div>
       </div>
     );
