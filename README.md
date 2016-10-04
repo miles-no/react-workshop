@@ -1,5 +1,7 @@
 # React Workshop for fiskeridirektoratet
 
+[Lenke til presentasjon](https://docs.google.com/a/miles.no/presentation/d/1GNajmITWln4kKOYfo-HE36p0Ls3O5J2FHtbBeVcC2o0/edit?usp=sharing)
+
 ## Oppsett og installering
 
 1. Klone repoet

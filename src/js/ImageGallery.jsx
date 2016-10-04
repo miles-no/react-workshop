@@ -11,7 +11,7 @@ class ImageGallery extends Component {
     const images = [];
     return (
       <div className="image-gallery">
-        <h1 className="image-gallery__title">Bildegalleri</h1>
+        <h1 className="image-gallery__title">Bildegalleri Hu hei!!</h1>
         <div className="thumbnails">{images}</div>
       </div>
     );
