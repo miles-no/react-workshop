@@ -13,7 +13,6 @@ class ImageGallery extends Component {
       <div className="image-gallery">
         <h1 className="image-gallery__title">Bildegalleri</h1>
         <div className="thumbnails">{images}</div>
-        <input type="text" />
       </div>
     );
   }
