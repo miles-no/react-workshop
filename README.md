@@ -2,24 +2,32 @@
 
 [Lenke til presentasjon](https://dl.dropboxusercontent.com/u/60625359/react-workshop.pdf)
 
+## Programvare
+Du trenger node. Installer fra [nodejs](https://nodejs.org/) og velg siste versjon (nå v6.7.0). Dette vil også installere
+npm, Nodes pakkehåndteringssystem.
+
 ## Oppsett og installering
 
 1. Klone repoet
-```
-$ git clone https://github.com/miles-no/react-workshop.git
-```
+
+ ```
+ $ git clone https://github.com/miles-no/react-workshop.git
+ ```
 2. Gå til repoet
-```
-$ cd react-workshop
-```
+
+ ```
+ $ cd react-workshop
+ ```
 3. Installer avhengigheter
-```
-$ npm install
-```
+
+ ```
+ $ npm install
+ ```
 4. Kjør koden i utviklingsmodus
-```
-$ npm run start
-```
+
+ ```
+ $ npm run start
+ ```
 5. Gå til http://localhost:3000/
 
 ## Om oppgaven
