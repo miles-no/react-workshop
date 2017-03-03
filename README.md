@@ -1,10 +1,7 @@
-# React Workshop for fiskeridirektoratet
-
-[Lenke til presentasjon](https://dl.dropboxusercontent.com/u/60625359/react-workshop.pdf)
+# React Workshop
 
 ## Programvare
-Du trenger node. Installer fra [nodejs](https://nodejs.org/) og velg siste versjon (nå v6.7.0). Dette vil også installere
-npm, Nodes pakkehåndteringssystem.
+Du trenger node. Installer fra [nodejs](https://nodejs.org/) og velg siste versjon. Dette vil også installere npm, Nodes pakkehåndteringssystem.
 
 ## Oppsett og installering
 
@@ -55,7 +52,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 Lag en detaljert visning som viser det 1. bildet i bilde-arrayen. Visningen kan returnere
 ```
 <div className="image-preview">
-   <h2>{tittel-tekst}</h2>
+   <h2>{[tittel-tekst]}</h2>
    <img alt={[alt-tekst]} src={[src-tekst]} />
  </div>
 ```

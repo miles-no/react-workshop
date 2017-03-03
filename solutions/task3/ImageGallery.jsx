@@ -32,4 +32,4 @@ class ImageGallery extends Component {
   }
 }
 
-module.exports = ImageGallery;
+export default ImageGallery;

@@ -16,4 +16,4 @@ ImageDetail.propTypes = {
   title: PropTypes.string,
 };
 
-module.exports = ImageDetail;
+export default ImageDetail;

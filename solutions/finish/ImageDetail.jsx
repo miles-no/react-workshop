@@ -47,4 +47,4 @@ ImageDetail.propTypes = {
   onTitleChange: PropTypes.func.isRequired,
 };
 
-module.exports = ImageDetail;
+export default ImageDetail;

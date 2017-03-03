@@ -1,10 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 
 class Thumbnail extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { thumb, title, alt } = this.props;
     return (
@@ -31,4 +27,4 @@ Thumbnail.propTypes = {
   alt: PropTypes.string,
 };
 
-module.exports = Thumbnail;
+export default Thumbnail;

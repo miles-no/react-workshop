@@ -38,4 +38,4 @@ Thumbnail.propTypes = {
   onClick: PropTypes.func.isRequired,
 };
 
-module.exports = Thumbnail;
+export default Thumbnail;

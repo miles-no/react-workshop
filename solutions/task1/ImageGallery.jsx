@@ -5,10 +5,6 @@ import imageArr from '../data/mock';
 require('../styles/app.css');
 
 class ImageGallery extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const images = imageArr.map((image, idx) => {
       return <Thumbnail {...image} key={idx} />;
@@ -22,4 +18,4 @@ class ImageGallery extends Component {
   }
 }
 
-module.exports = ImageGallery;
+export default ImageGallery;
